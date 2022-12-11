@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Ravi Chauhan - Personal Portfolio Website" />
 	<meta name="keywords" content="blog, business card, creative, creative portfolio, cv theme, online resume, personal, portfolio, professional cv, responsive portfolio, resume, resume theme, vcard" />
 	<meta name="author" content="Ravi Chauhan" />
@@ -77,11 +77,11 @@
                 <div class="firstline"><span class="color">Ravi </span>Chauhan</div>
                 <div class="secondline">
                 I'm a
-            <span class="txt-rotate color" data-period="1200"data-rotate='[ " Designer.", " Coder", " Freelancer." ]'></span>
+            <span class="txt-rotate color" data-period="1200"data-rotate='[  " Devloper.", " Freelancer." ," Designer." , "bloger."]'></span>
             <span class="slash">|</span>
         </div>
                     <div class="contact">
-                <a href="Mailto:ravichauhanrc01@gmail.com"><img src="images/mail.png" alt="email-pic" class="contactpic"></a>
+                <a href="Mail to:ravichauhanrc01@gmail.com"><img src="images/mail.png" alt="email-pic" class="contactpic"></a>
                 <a href="Tel:+918948449361"><img src="images/call.png" alt="phone-pic" class="contactpic"></a>
                     </div>    
             </div>
@@ -202,7 +202,7 @@
                                <img src="images/instagram.png" alt="service-two">
                                </div>
                                <div class="service-description">
-                                <h2>cool filters</h2>
+                                <h2>filters</h2>
                                 <p></p>
                                </div>
                            </div>
@@ -384,7 +384,7 @@
                                         ▐█▀▀▌───▄▀▌─▌─█─▌──▌─▌
                                         ▌▀▄─▐──▀▄─▐▄─▐▄▐▄─▐▄─▐▄
                                         
-                                        Refer to home page!
+                                       
                                     </p>
                                 </div></a>
                             </div>  
@@ -472,7 +472,8 @@
                                 
 
                                 <input type="tel" name="phone" id="subject" name="phone" placeholder="Phone no." class="input-subject">
-                               > <textarea id ="body" name="message" class="input-textarea" placeholder="message"></textarea>
+                                <input type="text" name="message" id="subject" name="message" placeholder="message" class="input-subject">
+                                <!-- > <textarea id ="body" name="message" class="input-textarea" placeholder="message"></textarea> -->
                                <button type="submit" name="submit" id ="submit" value="send">Submit</button>
 
                            
@@ -530,7 +531,7 @@
                         <script>
                             const scriptURL ='https://script.google.com/macros/s/AKfycbwfZcB1BxaJJcchdQCqCMKnaguY7NnwDO62mndoesq5Aj0TkQl6dNFBmKjrcHduZHAIng/exec'
                             const form = document.forms['google-sheet']
-                            
+
                             form.addEventListener('submit', e => {
                             e.preventDefault()
                             fetch(scriptURL, { method: 'POST', body: new FormData(form)})
@@ -538,7 +539,7 @@
 
                             .then(response => alert("Thankyou..! i love your response."))
 
-                            
+
                             .catch(error => console.error('Error!', error.message))
                             })
                             </script>
@@ -546,7 +547,7 @@
 
 
 
-                            
+
 
 
 
@@ -567,29 +568,28 @@
                             <div class="contect-info-content-line">
                                 <img src="./images/icon-name.png" class="icon" alt="name-icon">
                                 <div class="contact-info-icon-text">
-                                    <h6>Name</h6>
+                                     Name 
                                     <p>Ravi Chauhan</p>
                               </div>
                             </div>
                             <div class="contect-info-content-line">
                               <img src="./images/icon-location.png" class="icon" alt="location-icon">
                               <div class="contact-info-icon-text">
-                                  <h6>Location</h6>
+                                  <h7>Location</h7>
                                   <p>Uttra pradesh, India</p>
                             </div>
                           </div>
                           <div class="contect-info-content-line">
                               <img src="./images/icon-phone.png" class="icon" alt="phone-icon">
                               <div class="contact-info-icon-text">
-                                  <h6>Call</h6>
+                                  <h7>Call</h7>
                                   <p>+91-8948449361</p>
                             </div>
                           </div>
-                          
                           <div class="contect-info-content-line">
                               <img src="./images/icon-email.png" class="icon" alt="email-icon">
                               <div class="contact-info-icon-text">
-                                  <h6>Email</h6>
+                                  <h7>Email</h7>
                                   <p>Ravichauhanrc01@gmail.com</p>
                             </div>
                           </div>
